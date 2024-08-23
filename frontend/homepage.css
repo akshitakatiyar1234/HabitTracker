@@ -1,0 +1,117 @@
+body{
+    background-color: antiquewhite;
+    margin:0px;
+}
+#header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding:10px;
+}
+h1{
+    margin:0px;
+}
+#header-left{
+    display: flex;
+}
+#header-left h3{
+    margin:10px;
+}
+#header-left a{
+    text-decoration:none; 
+    color:black
+}
+
+/* all habit list */
+
+#habit-list{
+    background-color: rgb(239, 176, 98);
+    height:50vh;
+    width :50vw;
+    margin :auto;
+    margin-top:10vh;
+    overflow-y:scroll;
+    border-radius: 30px;
+}
+button{
+    background-color: orange;
+    border-radius: 100px;
+    border-color: beige;
+    width:20vw;
+    height:5vh;
+    margin:10px;
+    margin-left:15vw;
+}
+.habit{
+    position:relative;
+    font-size: large;
+    width:35vw;
+    height:6vh;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin:auto;
+    padding:10px;
+    margin-bottom:10px;
+}
+.daily-button{
+    position:absolute;
+    left:20vw;
+    bottom:1px;
+    width:8vw;
+    height:5vh;
+    margin-left:1vw;
+}
+#status-info{
+    display: flex;
+    justify-content: end;
+}
+#status-info button{
+    width:5vw;
+    margin:2px;
+}
+
+/* Daily habit */
+
+#daily-habit-list{
+        margin-top: 20vh;
+        font-size: large;
+        width:35vw;
+        height:16vh;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin:auto;
+        padding:10px;
+
+}
+.fa{
+    position:absolute;
+    left: 32vw;
+    font-size:30px; 
+}
+.deleteicon{
+    position:static;
+}
+
+/*today page*/
+.habit-name{
+    margin-top:0px;
+}
+.status{
+    width:2vw;
+    height:3vh;
+    margin:.5vw;
+    cursor:pointer;
+   
+}
+.blue{
+    background-color: rgb(26, 153, 217); 
+}
+.red{
+    background-color:red;
+
+}
+.green{
+    background-color: greenyellow;
+}
